@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A558643162D8E8F00305A4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A558642162D8E8F00305A4E /* UIKit.framework */; };
+		6A558645162D8E8F00305A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A558644162D8E8F00305A4E /* Foundation.framework */; };
+		6A558647162D8E8F00305A4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A558646162D8E8F00305A4E /* CoreGraphics.framework */; };
+		6A55864D162D8E8F00305A4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A55864B162D8E8F00305A4E /* InfoPlist.strings */; };
+		6A55864F162D8E8F00305A4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A55864E162D8E8F00305A4E /* main.m */; };
+		6A558653162D8E8F00305A4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A558652162D8E8F00305A4E /* AppDelegate.m */; };
+		6A558656162D8E8F00305A4E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A558654162D8E8F00305A4E /* MainStoryboard.storyboard */; };
+		6A558659162D8E8F00305A4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A558658162D8E8F00305A4E /* ViewController.m */; };
+		6A558661162D8E8F00305A4E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A558660162D8E8F00305A4E /* SenTestingKit.framework */; };
+		6A558662162D8E8F00305A4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A558642162D8E8F00305A4E /* UIKit.framework */; };
+		6A558663162D8E8F00305A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A558644162D8E8F00305A4E /* Foundation.framework */; };
+		6A55866B162D8E8F00305A4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A558669162D8E8F00305A4E /* InfoPlist.strings */; };
+		6A55866E162D8E8F00305A4E /* RelogioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A55866D162D8E8F00305A4E /* RelogioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A558664162D8E8F00305A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A558635162D8E8F00305A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A55863D162D8E8F00305A4E;
+			remoteInfo = Relogio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A55863E162D8E8F00305A4E /* Relogio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relogio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A558642162D8E8F00305A4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A558644162D8E8F00305A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A558646162D8E8F00305A4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A55864A162D8E8F00305A4E /* Relogio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Relogio-Info.plist"; sourceTree = "<group>"; };
+		6A55864C162D8E8F00305A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A55864E162D8E8F00305A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A558650162D8E8F00305A4E /* Relogio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Relogio-Prefix.pch"; sourceTree = "<group>"; };
+		6A558651162D8E8F00305A4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A558652162D8E8F00305A4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A558655162D8E8F00305A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A558657162D8E8F00305A4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A558658162D8E8F00305A4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A55865F162D8E8F00305A4E /* RelogioTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelogioTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A558660162D8E8F00305A4E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A558668162D8E8F00305A4E /* RelogioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RelogioTests-Info.plist"; sourceTree = "<group>"; };
+		6A55866A162D8E8F00305A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A55866C162D8E8F00305A4E /* RelogioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelogioTests.h; sourceTree = "<group>"; };
+		6A55866D162D8E8F00305A4E /* RelogioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelogioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A55863B162D8E8F00305A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A558643162D8E8F00305A4E /* UIKit.framework in Frameworks */,
+				6A558645162D8E8F00305A4E /* Foundation.framework in Frameworks */,
+				6A558647162D8E8F00305A4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A55865B162D8E8F00305A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A558661162D8E8F00305A4E /* SenTestingKit.framework in Frameworks */,
+				6A558662162D8E8F00305A4E /* UIKit.framework in Frameworks */,
+				6A558663162D8E8F00305A4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A558633162D8E8F00305A4E = {
+			isa = PBXGroup;
+			children = (
+				6A558648162D8E8F00305A4E /* Relogio */,
+				6A558666162D8E8F00305A4E /* RelogioTests */,
+				6A558641162D8E8F00305A4E /* Frameworks */,
+				6A55863F162D8E8F00305A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A55863F162D8E8F00305A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A55863E162D8E8F00305A4E /* Relogio.app */,
+				6A55865F162D8E8F00305A4E /* RelogioTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A558641162D8E8F00305A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A558642162D8E8F00305A4E /* UIKit.framework */,
+				6A558644162D8E8F00305A4E /* Foundation.framework */,
+				6A558646162D8E8F00305A4E /* CoreGraphics.framework */,
+				6A558660162D8E8F00305A4E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A558648162D8E8F00305A4E /* Relogio */ = {
+			isa = PBXGroup;
+			children = (
+				6A558651162D8E8F00305A4E /* AppDelegate.h */,
+				6A558652162D8E8F00305A4E /* AppDelegate.m */,
+				6A558654162D8E8F00305A4E /* MainStoryboard.storyboard */,
+				6A558657162D8E8F00305A4E /* ViewController.h */,
+				6A558658162D8E8F00305A4E /* ViewController.m */,
+				6A558649162D8E8F00305A4E /* Supporting Files */,
+			);
+			path = Relogio;
+			sourceTree = "<group>";
+		};
+		6A558649162D8E8F00305A4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A55864A162D8E8F00305A4E /* Relogio-Info.plist */,
+				6A55864B162D8E8F00305A4E /* InfoPlist.strings */,
+				6A55864E162D8E8F00305A4E /* main.m */,
+				6A558650162D8E8F00305A4E /* Relogio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A558666162D8E8F00305A4E /* RelogioTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A55866C162D8E8F00305A4E /* RelogioTests.h */,
+				6A55866D162D8E8F00305A4E /* RelogioTests.m */,
+				6A558667162D8E8F00305A4E /* Supporting Files */,
+			);
+			path = RelogioTests;
+			sourceTree = "<group>";
+		};
+		6A558667162D8E8F00305A4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A558668162D8E8F00305A4E /* RelogioTests-Info.plist */,
+				6A558669162D8E8F00305A4E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A55863D162D8E8F00305A4E /* Relogio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A558671162D8E8F00305A4E /* Build configuration list for PBXNativeTarget "Relogio" */;
+			buildPhases = (
+				6A55863A162D8E8F00305A4E /* Sources */,
+				6A55863B162D8E8F00305A4E /* Frameworks */,
+				6A55863C162D8E8F00305A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Relogio;
+			productName = Relogio;
+			productReference = 6A55863E162D8E8F00305A4E /* Relogio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A55865E162D8E8F00305A4E /* RelogioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A558674162D8E8F00305A4E /* Build configuration list for PBXNativeTarget "RelogioTests" */;
+			buildPhases = (
+				6A55865A162D8E8F00305A4E /* Sources */,
+				6A55865B162D8E8F00305A4E /* Frameworks */,
+				6A55865C162D8E8F00305A4E /* Resources */,
+				6A55865D162D8E8F00305A4E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A558665162D8E8F00305A4E /* PBXTargetDependency */,
+			);
+			name = RelogioTests;
+			productName = RelogioTests;
+			productReference = 6A55865F162D8E8F00305A4E /* RelogioTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A558635162D8E8F00305A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A558638162D8E8F00305A4E /* Build configuration list for PBXProject "Relogio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A558633162D8E8F00305A4E;
+			productRefGroup = 6A55863F162D8E8F00305A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A55863D162D8E8F00305A4E /* Relogio */,
+				6A55865E162D8E8F00305A4E /* RelogioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A55863C162D8E8F00305A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A55864D162D8E8F00305A4E /* InfoPlist.strings in Resources */,
+				6A558656162D8E8F00305A4E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A55865C162D8E8F00305A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A55866B162D8E8F00305A4E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A55865D162D8E8F00305A4E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A55863A162D8E8F00305A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A55864F162D8E8F00305A4E /* main.m in Sources */,
+				6A558653162D8E8F00305A4E /* AppDelegate.m in Sources */,
+				6A558659162D8E8F00305A4E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A55865A162D8E8F00305A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A55866E162D8E8F00305A4E /* RelogioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A558665162D8E8F00305A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A55863D162D8E8F00305A4E /* Relogio */;
+			targetProxy = 6A558664162D8E8F00305A4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A55864B162D8E8F00305A4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A55864C162D8E8F00305A4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A558654162D8E8F00305A4E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A558655162D8E8F00305A4E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A558669162D8E8F00305A4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A55866A162D8E8F00305A4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A55866F162D8E8F00305A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A558670162D8E8F00305A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A558672162D8E8F00305A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Relogio/Relogio-Prefix.pch";
+				INFOPLIST_FILE = "Relogio/Relogio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A558673162D8E8F00305A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Relogio/Relogio-Prefix.pch";
+				INFOPLIST_FILE = "Relogio/Relogio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A558675162D8E8F00305A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Relogio.app/Relogio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Relogio/Relogio-Prefix.pch";
+				INFOPLIST_FILE = "RelogioTests/RelogioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A558676162D8E8F00305A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Relogio.app/Relogio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Relogio/Relogio-Prefix.pch";
+				INFOPLIST_FILE = "RelogioTests/RelogioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A558638162D8E8F00305A4E /* Build configuration list for PBXProject "Relogio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A55866F162D8E8F00305A4E /* Debug */,
+				6A558670162D8E8F00305A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A558671162D8E8F00305A4E /* Build configuration list for PBXNativeTarget "Relogio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A558672162D8E8F00305A4E /* Debug */,
+				6A558673162D8E8F00305A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A558674162D8E8F00305A4E /* Build configuration list for PBXNativeTarget "RelogioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A558675162D8E8F00305A4E /* Debug */,
+				6A558676162D8E8F00305A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A558635162D8E8F00305A4E /* Project object */;
+}
