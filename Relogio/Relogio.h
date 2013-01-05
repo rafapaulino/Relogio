@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Relogio.h
 //  Relogio
 //
 //  Created by Rafael Brigagão Paulino on 16/10/12.
@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Relogio.h"
 
-@interface ViewController : UIViewController
+@interface Relogio : UIView
+{
+    CGFloat anguloSegundo;
+    CGFloat anguloMinuto;
+    CGFloat anguloHora;
+    
+    float hora, minuto, segundo;
+    
+}
 
 @end

@@ -20,6 +20,7 @@
 		6A558663162D8E8F00305A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A558644162D8E8F00305A4E /* Foundation.framework */; };
 		6A55866B162D8E8F00305A4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A558669162D8E8F00305A4E /* InfoPlist.strings */; };
 		6A55866E162D8E8F00305A4E /* RelogioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A55866D162D8E8F00305A4E /* RelogioTests.m */; };
+		6A558679162D8F6D00305A4E /* Relogio.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A558678162D8F6D00305A4E /* Relogio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		6A55866A162D8E8F00305A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A55866C162D8E8F00305A4E /* RelogioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RelogioTests.h; sourceTree = "<group>"; };
 		6A55866D162D8E8F00305A4E /* RelogioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelogioTests.m; sourceTree = "<group>"; };
+		6A558677162D8F6D00305A4E /* Relogio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Relogio.h; sourceTree = "<group>"; };
+		6A558678162D8F6D00305A4E /* Relogio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Relogio.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				6A558651162D8E8F00305A4E /* AppDelegate.h */,
 				6A558652162D8E8F00305A4E /* AppDelegate.m */,
 				6A558654162D8E8F00305A4E /* MainStoryboard.storyboard */,
+				6A558677162D8F6D00305A4E /* Relogio.h */,
+				6A558678162D8F6D00305A4E /* Relogio.m */,
 				6A558657162D8E8F00305A4E /* ViewController.h */,
 				6A558658162D8E8F00305A4E /* ViewController.m */,
 				6A558649162D8E8F00305A4E /* Supporting Files */,
@@ -261,6 +266,7 @@
 				6A55864F162D8E8F00305A4E /* main.m in Sources */,
 				6A558653162D8E8F00305A4E /* AppDelegate.m in Sources */,
 				6A558659162D8E8F00305A4E /* ViewController.m in Sources */,
+				6A558679162D8F6D00305A4E /* Relogio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
